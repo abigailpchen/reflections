@@ -13,3 +13,8 @@ together, you can add them to the staging area.  When you are ready to commit
 them to the repo, you commit them.  The value of the SA is that it allows you
 to decide which files to move before you have committed them, and you can undo
 the changes.
+
+3.How can you use the staging area to make sure you have one commit per logical
+change?
+
+First, git add, then git status to double check what has staged.  You can
