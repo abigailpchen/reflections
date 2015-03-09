@@ -1,0 +1,15 @@
+1.What happens when you initialize a repository? Why do you need to do it?
+
+Git initializes an empty repository.  You need to do it to tell git to operate
+on that directory.
+
+2.How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The working directory contains the files you may want to commit to a repo.
+The staging area is the place where you put them between the working directory
+and the repo.  So, for example, if you have 3 files in the WD, and 2 work
+together, you can add them to the staging area.  When you are ready to commit
+them to the repo, you commit them.  The value of the SA is that it allows you
+to decide which files to move before you have committed them, and you can undo
+the changes.
