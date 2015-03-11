@@ -1,7 +1,7 @@
 1.What happens when you initialize a repository? Why do you need to do it?
 
-Git initializes an empty repository.  You need to do it to tell git to operate
-on that directory.
+Git initializes a repository that has hidden log files.
+You need to do it to tell git to operate on that directory.
 
 2.How is the staging area different from the working directory and the
 repository? What value do you think it offers?
@@ -30,3 +30,10 @@ you want to make different versions of your product
 
 It helps to see how branches work, how they relate to master, and where they
 diverged from master.
+
+6.What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+The two branches become one, but you can still see the parent commits for each.
+The diagram is shown as is because it shows the parents and previous commits for
+each branch, so you can continue accessing their history.
