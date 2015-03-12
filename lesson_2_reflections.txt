@@ -37,3 +37,10 @@ Why do we represent it in the diagram the way we do?
 The two branches become one, but you can still see the parent commits for each.
 The diagram is shown as is because it shows the parents and previous commits for
 each branch, so you can continue accessing their history.
+
+7.What are the pros and cons of Git’s automatic merging vs. always
+doing merges manually?
+
+Auto merging saves time when there are no conflicts between branches.
+When there are conflicts, it gives you the chance to decide how to resolve them.
+Cons would be, hmm, not sure.
