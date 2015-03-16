@@ -12,4 +12,9 @@ The changes might not have been ready to commit, it will help avoid merge
 conflicts, and other people may be working on the same remote, so it could
 cause confusion if pulls are made automatically and you are not ready for them.
 
-TESTING
+3.Describe the differences  between forks, clones, and branches.
+When would you use one instead of another?
+
+fork - do this when you want to copy someone else's repo, but not push changes to it, or at least not continually, and any changes you make will be pushed to your fork, not the original replace
+clone - do this when you want to copy a repo to your machine locally, you will often be able to push changes to it
+branch - make a branch when you are working on a new feature to a repo that you have forked or cloned. Changes can be committed to the branch without changing the original repo until you merge the branch back into the original master.
