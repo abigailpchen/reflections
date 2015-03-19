@@ -29,3 +29,12 @@ remote stored locally?
 
 It can prevent future merge conflicts, can help you avoid making code
 changes that others have already done.
+
+5.How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+Git is a little hard for people to understand, so another interface could be
+easier.  I could use something like google docs, but it would not necessarily
+allowmultiple versions at once.  Having to keep track of versions and notes on
+those versions could get messy if I tried to devise my own system.  Also, loss
+of change history can be a problem.
